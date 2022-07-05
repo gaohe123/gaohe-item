@@ -12,7 +12,8 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'space-before-function-paren': 'off',
     'no-tabs': 'warn',
-    ' no-const-assign': 'warn',
+    ' no-const-assign': 'off',
+    'no-trailing-spaces': 'off',
     'vue/multi-word-component-names': 'off'
   },
   overrides: [
